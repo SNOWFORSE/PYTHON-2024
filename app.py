@@ -6,10 +6,27 @@ print("""
 ██████╔╝██║░░██║██████╦╝╚█████╔╝██║░░██║  ███████╗██╔╝╚██╗██║░░░░░██║░░██║███████╗██████╔╝██████╔╝
 ╚═════╝░╚═╝░░╚═╝╚═════╝░░╚════╝░╚═╝░░╚═╝  ╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝░░╚═╝╚══════╝╚═════╝░╚═════╝░""")
 
+
 print("1. Cadastro Resteurante")
-print("2. Lista Resteurante")
+print("2. Listar Resteurantes")
 print("3. Ativar Restaurante")
 print("4. Sair\n")
 
-opção_escolhida = input("Escolha uma Opção: ")
-print(f"Você escolheu a opção{opção_escolhida}")
+opção_escolhida =  int (input("Escolha uma Opção: "))
+# opção_escolhida = int(opção_escolhida) 
+
+
+
+
+
+
+
+if opção_escolhida == 1:
+    print("Cadastrar Restaurante")
+elif opção_escolhida == 2:
+    print("Listar Restaurantes")
+elif opção_escolhida == 3:
+    print("Ativar Restaurante")
+else:
+    finalisar_app()
+
